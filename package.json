@@ -1,0 +1,29 @@
+{
+  "name": "node-user-auth-jwt",
+  "version": "1.0.0",
+  "description": "This is min project for user Authentication with JWT",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swdchandan/Node-User-Auth-JWT.git"
+  },
+  "author": "Chandan Chakrawarti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swdchandan/Node-User-Auth-JWT/issues"
+  },
+  "homepage": "https://github.com/swdchandan/Node-User-Auth-JWT#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
